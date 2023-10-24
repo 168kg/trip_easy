@@ -1,0 +1,400 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'S-CoreDream-3Light';
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 100px;
+    color: #fff;
+}
+
+header .menu {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .menu h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+header .menu nav ul {
+    text-align: center;
+}
+
+header .menu nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+header .menu>ul {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+header .menu>ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* 🔔 main_visual_1 시작 */
+
+.main_visual_1 {
+    height: 100vh;
+}
+
+.main_visual_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.main_visual_1 div {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main_visual_1 div p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.main_visual_1 div h2 {
+    font-size: 90px;
+    font-weight: normal;
+}
+
+.main_visual_1 div h2 span {
+    font-weight: bold;
+}
+
+/* 🔔 main_visual_2 시작 */
+
+.main_visual_2 {
+    background: url(../img/피그마_여행페이지/main_visual_2.png) center center / cover no-repeat;
+}
+
+.main_visual_2 .inner {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 260px;
+}
+
+.main_visual_2 .inner .title {
+    text-align: center;
+    color: #fff;
+}
+
+.main_visual_2 .inner .title h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.main_visual_2 .inner .title span {
+    font-weight: bold;
+}
+
+.main_visual_2 .inner .title p {
+    font-size: 16px;
+}
+
+.main_visual_2 .inner .list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.main_visual_2 .inner .list .best {
+    width: 464px;
+    padding: 90px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.main_visual_2 .inner .list .best img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.main_visual_2 .inner .list .best div {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.main_visual_2 .inner .list .best div span {
+    background-color: #005C0F;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 50px;
+}
+
+.main_visual_2 .inner .list .best div h4 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main_visual_2 .inner .list .best div p {
+    font-size: 14px;
+}
+
+/* 🔔 main_visual_3 시작 */
+
+.main_visual_3 .inner {
+    position: relative;
+}
+
+.main_visual_3 .inner img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.main_visual_3 .inner div {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_visual_3 .inner div h5 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.main_visual_3 .inner div p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 84px;
+}
+
+.main_visual_3 .inner div span {
+    background-color: #fff;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.main_visual_3 .title {
+    margin: 62px 0px 64px 240px;
+}
+
+.main_visual_3 .title h6 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.main_visual_3 .list {
+    margin: 0px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_visual_3 .list .item img {
+    object-fit: cover;
+    width: 342px;
+    height: 270px;
+    display: block;
+}
+
+.main_visual_3 .list .item {
+    position: relative;
+}
+
+.main_visual_3 .list .item div {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main_visual_3 .bob div {
+    background-color: #FFF7E1;
+    margin-top: 102px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 112px;
+}
+
+.main_visual_3 .bob div h7 {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 240px;
+}
+
+.main_visual_3 .bob div p {
+    position: absolute;
+    top: 110px;
+    left: 360px;
+}
+
+.main_visual_3 .bob span {
+    background-color: black;
+    color: #fff;
+    border-radius: 24px;
+    padding: 14px 25px;
+    position: absolute;
+    bottom: 50px;
+    left: 471px;
+}
+.main_visual_3 .bob div img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* 🔔 main_visul_4 시작 */
+
+.main_visual_4 h8 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 240px;
+}
+
+.main_visual_4 .list {
+    margin: 20px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_visual_4 .list .item img {
+   object-fit: cover;
+   display: block;
+}
+
+.main_visual_4 .list .item {
+    position: relative;
+}
+
+
+.main_visual_4 .list .item div h9 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.main_visual_4 .list .item div p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 109px;
+    left: 30px;
+}
+
+.main_visual_4 .list .item div span {
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 13px 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.main_visual_4 .jjd {
+    position: relative;
+}
+
+.main_visual_4 .jjd img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-top: 155px;
+}
+
+.main_visual_4 .jjd div {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 173px;
+    left: 240px;
+    color: #fff;
+}
+
+/* 🔔 footer 시작 */
+
+footer {
+    background-color: #005C0F;
+    color: #fff;
+}
+
+footer .inner {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer .inner .right {
+    display: flex;
+}
+
+footer .inner .right li {
+    margin-right: 10px;
+}
+
